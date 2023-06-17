@@ -1,0 +1,27 @@
+body{
+    /*background: url("https://image.slidesharecdn.com/guessinggame-180322072205/85/guessing-game-1-320.jpg?cb=1666195881");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: large;*/
+    background: linear-gradient(white,rgb(210, 210, 247),rgb(170, 170, 255),rgb(89, 89, 248),rgb(36, 36, 253),blue);
+    height: 486px;
+}
+.box{
+    height: 300px;
+    width: 600px;
+    border: 5px groove black;
+    margin: auto;
+    margin-top: 160px;
+    background: linear-gradient(rgb(240, 208, 214),rgb(253, 157, 173),rgb(253, 84, 112),rgba(253,15,54));
+    border-radius: 50px;
+}
+#btn{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    margin-left: 210px;
+    margin-top: 45px;
+}
+#check{
+    margin-top: 35px;
+}
